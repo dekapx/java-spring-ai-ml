@@ -58,7 +58,7 @@ function ChatApp() {
                 <div>
                     <div className="eyebrow">LOCAL AI ASSISTANT</div>
                     <h1>Spring AI Chat</h1>
-                    <p>Powered by qwen3-coder:30b · Ollama</p>
+                    <p>Powered by qwen3.8:27b · Ollama</p>
                 </div>
                 <button className="clear-button" onClick={clearChat} disabled={busy}>
                     Clear chat
