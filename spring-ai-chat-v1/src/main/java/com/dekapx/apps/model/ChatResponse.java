@@ -1,4 +1,6 @@
 package com.dekapx.apps.model;
 
-public record ChatResponse(String reply) {
+public record ChatResponse(
+        String reply,
+        String conversationId) {
 }
